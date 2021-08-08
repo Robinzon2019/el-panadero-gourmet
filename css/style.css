@@ -58,7 +58,40 @@ body{
 
 /* RESPONSIVE DESIGN */
 
-@media (max-width: 576px){
+@media (min-width: 320px) {
+
+    .texto-quienes-somos{
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+
+    .botones{
+        margin: 10px 0px;
+    }
+
+    .seccion-estatica {
+        background-color: rgba(0, 0, 0, 0);
+        height: 255vh;
+    }
+
+    #menu {
+        background-color: #F9F7F7;
+        height: 309vh;
+    }
+
+    .imagen-item-menu{
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    .precio {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 576px) and (min-width: 321px) {
     #logo{
         width: 150px;
     }
