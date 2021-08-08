@@ -114,12 +114,12 @@ body{
 
     .seccion-estatica{
         background-color: rgba(0, 0, 0, 0);
-        height: 250vh;
+        height: 235vh;
     }
 
     #menu{
         background-color: #F9F7F7;
-        height: 259vh;
+        height: 300vh;
     }  
 }
 
