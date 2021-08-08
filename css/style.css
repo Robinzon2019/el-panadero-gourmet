@@ -1,0 +1,140 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: #F9F7F7;
+}
+
+#logo{
+    width: 200px;
+}
+
+.imagen-carousel{
+    width: 100%;
+    height: 83vh;
+}
+
+#quienes-somos{
+    background-color: #F9F7F7;
+}
+
+.imagen-panaderia{
+    height: 60vh;
+}
+
+.botones {
+    border-radius: 25px;
+}
+
+.contenedor-imagen-fondo{
+   position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.imagen-fondo{
+    width: 100%;
+    height: 100vh;
+}
+
+.seccion-estatica{
+    background-color: rgba(0, 0, 0, 0);
+    height: 83vh;
+}
+
+.card{
+    margin: auto;
+}
+
+.imagen-item-menu{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#menu{
+    background-color: #F9F7F7;
+    height: 122vh;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 576px){
+    #logo{
+        width: 150px;
+    }
+
+    .imagen-carousel{
+        height: 70vh;
+    }
+
+    .imagen-panaderia{
+        height: 68vh;
+    }
+
+    .botones {
+       margin-top: 40px;
+    }
+
+    .card{
+        margin: auto;
+    }
+
+    .seccion-estatica{
+        background-color: rgba(0, 0, 0, 0);
+        height: 200vh;
+    }
+
+    #menu{
+        background-color: #F9F7F7;
+        height: 259vh;
+    }  
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+
+    #quienes-somos {
+        background-color: #F9F7F7;
+        height: 88vh;
+    }
+    
+    #menu{
+        background-color: #F9F7F7;
+        height: 108vh;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    .texto-navbar{
+        font-size: 11px;
+    }
+
+    #quienes-somos {
+        background-color: #F9F7F7;
+        height: 55vh;
+    }
+
+    .imagen-panaderia {
+        height: 38vh;
+    }
+
+    #nuestros-productos{
+        height: 62vh;
+    }
+    
+    #menu{
+        background-color: #F9F7F7;
+        height: 56vh;
+    }
+    
+    .imagen-item-menu{
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+    }
+
+    .precio {
+        font-size: 15px;
+    }
+
+}
