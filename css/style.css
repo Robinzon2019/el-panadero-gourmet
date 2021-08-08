@@ -58,7 +58,7 @@ body{
 
 /* RESPONSIVE DESIGN */
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
 
     .texto-quienes-somos{
         font-size: 14px;
@@ -92,6 +92,7 @@ body{
 }
 
 @media (max-width: 576px) and (min-width: 321px) {
+    
     #logo{
         width: 150px;
     }
@@ -114,12 +115,12 @@ body{
 
     .seccion-estatica{
         background-color: rgba(0, 0, 0, 0);
-        height: 235vh;
+        height: 202vh;
     }
 
     #menu{
         background-color: #F9F7F7;
-        height: 300vh;
+        height: 259vh;
     }  
 }
 
