@@ -120,7 +120,7 @@ body{
 
     #menu{
         background-color: #F9F7F7;
-        height: 259vh;
+        height: auto;
     }  
 }
 
